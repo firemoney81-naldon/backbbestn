@@ -1,23 +1,433 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026년 최신 자동차 보험료 비교 가이드: 다이렉트 보험의 새로운 시대</title>
+    <meta name="description" content="2026년 자동차 보험료를 가장 저렴하게 절약하는 방법. 다이렉트 보험 비교견적, 사회초년생 보험료 절감 팁, AI 기반 맞춤형 보험료 산출 노하우를 제공합니다.">
+    <meta name="keywords" content="자동차보험료, 다이렉트보험, 자동차보험비교, 보험료저렴한곳, 사회초년생자동차보험, 법인차자동차보험, 자동차보험료예상">
+
+    <!-- JSON-LD Structured Data for Naver/Google SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "2026년 최신 자동차 보험료 비교 가이드: 다이렉트 보험의 새로운 시대",
+      "description": "2026년 자동차 보험료를 가장 저렴하게 절약하는 방법. 다이렉트 보험 비교견적, 사회초년생 보험료 절감 팁, AI 기반 맞춤형 보험료 산출 노하우를 제공합니다.",
+      "url": "https://directmpmoj.withusdone.com/",
+      "mainContentOfPage": [
+        {
+          "@type": "Article",
+          "headline": "다이렉트 자동차 보험 비교견적, 왜 필수인가?",
+          "articleBody": "2026년 다이렉트 보험 시장의 변화, 숨겨진 할인율 비교 분석"
+        },
+        {
+          "@type": "Article",
+          "headline": "사회초년생 및 젊은 운전자를 위한 보험료 절약 팁",
+          "articleBody": "20대, 30대 운전자가 겪는 보험료 부담 해결책"
+        },
+        {
+          "@type": "Article",
+          "headline": "특수 차량 및 법인 차량 보험료 가이드",
+          "articleBody": "화물차, 법인차, 캠핑카 등 맞춤형 보험 설계 전략"
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        /* CSS Variables for Soft Color Palette */
+        :root {
+            --primary-color: #3f51b5; /* Indigo */
+            --secondary-color: #ffc107; /* Amber */
+            --background-light: #f7f9fc; /* Very light blue/gray */
+            --background-section: #ffffff; /* White */
+            --text-dark: #333333;
+            --text-light: #555555;
+            --border-color: #e0e0e0;
+            --shadow-light: rgba(0, 0, 0, 0.05);
+        }
+
+        /* Basic Reset and Typography */
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-light);
+            color: var(--text-dark);
+            line-height: 1.8;
+            word-break: keep-all;
+            text-align: justify;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px var(--shadow-light);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+
+        /* Main Content Area */
+        main {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Section Styling */
+        section {
+            background-color: var(--background-section);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 6px 20px var(--shadow-light);
+        }
+
+        section h2 {
+            font-size: 2rem;
+            color: var(--primary-color);
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        /* Content Links Styling */
+        .content-links {
+            background-color: #fff3e0; /* Light orange background */
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 25px;
+        }
+
+        .content-links a {
+            font-weight: bold;
+            color: var(--primary-color);
+            text-decoration: none;
+            display: inline-block;
+            margin-right: 15px;
+            margin-bottom: 10px;
+            padding: 8px 15px;
+            border: 1px solid var(--primary-color);
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .content-links a:hover {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        /* Sub-section / Card Styling */
+        .info-card {
+            background-color: #fcfcfc;
+            border: 1px solid var(--border-color);
+            border-left: 5px solid var(--primary-color);
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        .info-card h3 {
+            color: var(--secondary-color);
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            main {
+                margin: 20px auto;
+                padding: 0 15px;
+            }
+            section {
+                padding: 20px;
+            }
+            section h2 {
+                font-size: 1.5rem;
+            }
+            .content-links {
+                text-align: center;
+            }
+            .content-links a {
+                width: 100%;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>2026년 최신 자동차 보험료 비교 가이드</h1>
+        <p>AI 기반 맞춤형 분석으로 내게 맞는 가장 저렴한 보험을 찾는 방법</p>
+    </header>
+
     <main>
-      <h1>Home page</h1>
+
+        <!-- Category 1: 다이렉트 보험 비교 및 가입 (Direct Insurance Comparison and Enrollment) -->
+        <section>
+            <h2>다이렉트 보험 비교의 모든 것: 2026년 핵심 트렌드 분석</h2>
+            <p>
+                2026년의 자동차 보험 시장은 과거와 확연히 달라졌습니다. 단순한 가격 비교를 넘어, 개인의 운전 습관(UBI, Usage Based Insurance), 차량의 AI 안전 옵션, 그리고 운전자의 라이프스타일(재택 근무 증가 등)이 보험료 산정에 결정적인 영향을 미치고 있습니다. 특히, 보험사들이 자체 빅데이터 분석을 통해 실시간으로 보험료를 조정하는 '변동 보험료 시스템'이 더욱 고도화되면서, 개별 보험사 웹사이트를 일일이 방문하여 견적을 내는 방식으로는 절대 최적의 가격을 찾을 수 없습니다.
+            </p>
+            <p>
+                이러한 환경 변화 속에서, 다이렉트 보험 비교 견적 플랫폼의 중요성은 더욱 커지고 있습니다. 2026년에는 '자동화된 AI 에이전트'가 다수의 보험사 데이터를 동시에 분석하여, 운전자에게 가장 유리한 특약 조합을 추천해주는 서비스가 보편화되었습니다. 운전자는 자신의 차량 정보와 운전 패턴만 입력하면, 수십 개의 조합 중에서 가장 저렴하고 합리적인 보험 상품을 단 몇 분 만에 찾아낼 수 있게 됩니다. 과거에는 보험 설계사를 통했을 때만 가능했던 복잡한 할인 특약(블랙박스, 마일리지, 첨단 안전장치 할인 등) 적용 여부도 비교 플랫폼에서 실시간으로 확인할 수 있게 되었습니다.
+            </p>
+            <p>
+                따라서 2026년 자동차 보험료를 가장 효과적으로 절약하려면, <a href="https://directmpmon.withusdone.com/" target="_blank">다이렉트보험비교견적</a> 서비스를 적극적으로 활용하는 것이 필수입니다. 이 플랫폼은 단순히 보험료를 비교하는 것을 넘어, 보험 가입 이력을 바탕으로 개인에게 특화된 맞춤형 할인 정보를 제공합니다. 예를 들어, 운전자가 최근 3년간 무사고 운전을 유지했다면, 이 정보를 바탕으로 추가 할인율을 계산하여 보험료를 갱신할 수 있도록 도와줍니다.
+            </p>
+            <p>
+                특히 <a href="https://directnpmoi.withusdone.com/" target="_blank">자동차다이렉트보험계산</a> 기능은 보험료 예상치와 실제 견적을 비교하는 데 도움을 줍니다. 수많은 다이렉트 보험 상품 중 어떤 것이 자신에게 유리한지 알기 어렵다면, <a href="https://directnpmoj.withusdone.com/" target="_blank">자동차보험다이렉트차이</a>를 분석한 전문가의 도움을 받는 것도 좋습니다. 다이렉트 보험은 일반적으로 설계사 수수료가 없어 15~20%가량 저렴하다는 장점이 있지만, 보장 내용이 동일한지 꼼꼼하게 따져봐야 합니다. 2026년에는 비교 사이트에서 이 모든 과정을 자동으로 처리해주므로, 시간과 노력을 크게 절약할 수 있습니다. <a href="https://directmpmop.withusdone.com/" target="_blank">자동차다이렉트보험추천</a>을 통해 나에게 꼭 맞는 상품을 찾아보세요.
+            </p>
+            <p>
+                2026년에는 <a href="https://directnpmoo.withusdone.com/" target="_blank">자동차보험어플</a>을 통한 가입도 활성화되었습니다. 스마트폰 앱을 이용해 언제 어디서든 견적을 내고, 가입 절차를 완료할 수 있으며, 사고 발생 시에도 즉각적인 접수가 가능해졌습니다. 이러한 모바일 기반의 서비스는 특히 <a href="https://directnpmoh.withusdone.com/" target="_blank">트위지보험</a>과 같이 특정 차량에 대한 맞춤형 보험을 찾는 데 유용합니다. 트위지와 같은 전기차는 일반 내연기관 차량과는 다른 특약이 적용되기 때문에, 비교 플랫폼을 이용하는 것이 더욱 중요합니다. <a href="https://directnpmoa.withusdone.com/" target="_blank">법인차자동차보험</a> 역시 다이렉트 비교를 통해 비용 절감 효과를 극대화할 수 있습니다.
+            </p>
+            <div class="content-links">
+                <a href="https://directmpmom.withusdone.com/" target="_blank">자동차다이렉트보험견적</a>
+                <a href="https://directnpmoi.withusdone.com/" target="_blank">자동차다이렉트보험계산</a>
+                <a href="https://directnpmoj.withusdone.com/" target="_blank">자동차보험다이렉트차이</a>
+                <a href="https://directnpmol.withusdone.com/" target="_blank">다이렉트보험추천</a>
+            </div>
+        </section>
+
+        <!-- Category 2: 젊은 운전자와 특수 조건 (Young Drivers and Special Conditions) -->
+        <section>
+            <h2>사회초년생 및 젊은 운전자를 위한 특별 보험 가이드: 19세부터 30세까지</h2>
+            <p>
+                자동차 보험료 산정에서 나이는 여전히 가장 중요한 요소 중 하나입니다. 특히 2026년에도 <a href="https://directmpmox.withusdone.com/" target="_blank">19살자동차보험</a>, <a href="https://directnpmom.withusdone.com/" target="_blank">23살차보험료</a>, <a href="https://directmpmoy.withusdone.com/" target="_blank">30살자동차보험료</a>는 다른 연령대에 비해 높은 수준을 유지하고 있습니다. 이는 통계적으로 젊은 운전자들이 사고율이 높다는 과거 데이터 때문인데, 2026년에는 이 통계를 뒤집기 위한 다양한 시도가 이루어지고 있습니다. 특히 사회초년생이나 20대 운전자들은 보험료 부담을 줄이기 위해 다양한 방법을 모색해야 합니다.
+            </p>
+            <p>
+                첫째, '운전자 범위 한정'을 최대한 활용해야 합니다. <a href="https://directmpmos.withusdone.com/" target="_blank">개인자동차보험</a> 가입 시 '나 홀로 운전'이나 '부부 한정' 등으로 운전자 범위를 좁히면 보험료가 크게 할인됩니다. 특히 <a href="https://directmpmot.withusdone.com/" target="_blank">자동차보험누구나운전</a> 특약은 편리하지만 보험료가 비싸지므로, 꼭 필요한 경우가 아니라면 피하는 것이 좋습니다. 만약 부모님 명의로 가입된 차량을 함께 운전해야 한다면, '가족 한정'이나 '운전자 지정' 특약을 활용하여 보험료를 절감해야 합니다.
+            </p>
+            <p>
+                둘째, 2026년에는 젊은 운전자를 위한 '첨단 기술 할인'이 확대되었습니다. 차량에 장착된 ADAS(첨단 운전자 보조 시스템)나 블랙박스 할인은 기본이며, 최근에는 스마트폰 앱을 통한 운전 습관 분석(UBI)으로도 할인이 가능해졌습니다. 안전운전을 한 기록이 쌓이면 보험료가 낮아지는 방식이므로, <a href="https://directnpmoc.withusdone.com/" target="_blank">사회초년생자동차보험</a> 가입자에게는 좋은 절약 수단이 됩니다. 또한, 운전 경력이 짧아 보험료가 비싼 경우, 부모님 차량에 가입된 보험의 '운전자 등록'을 통해 경력을 인정받는 방법도 2026년에는 더욱 적극적으로 활용되고 있습니다.
+            </p>
+            <p>
+                셋째, 차량의 종류와 보장 범위를 신중하게 선택해야 합니다. 젊은 운전자들은 차량 가격 자체가 높지 않은 경우가 많으므로, 자차보험 가입 시 자기부담금 비율을 높여 보험료를 낮추거나, 불필요한 특약(렌트비 지원 등)을 제외하는 것도 방법입니다. <a href="https://directnpmof.withusdone.com/" target="_blank">K8보험료</a>나 <a href="https://directnpmoq.withusdone.com/" target="_blank">벤츠S클래스보험료</a>와 같이 고가 차량의 경우 보험료가 매우 높으므로, 차량 구매 전 반드시 <a href="https://directmpmol.withusdone.com/" target="_blank">자동차보험료예상</a> 견적을 받아보는 것이 중요합니다. 젊은 운전자들은 <a href="https://directnpmoo.withusdone.com/" target="_blank">자동차보험어플</a>을 활용하여 실시간으로 보험료를 비교하고, 가장 저렴한 곳을 찾아 가입할 수 있습니다.
+            </p>
+            <div class="content-links">
+                <a href="https://directmpmox.withusdone.com/" target="_blank">19살자동차보험</a>
+                <a href="https://directnpmof.withusdone.com/" target="_blank">K8보험료</a>
+                <a href="https://directnpmom.withusdone.com/" target="_blank">23살차보험료</a>
+                <a href="https://directnpmoc.withusdone.com/" target="_blank">사회초년생자동차보험</a>
+            </div>
+        </section>
+
+        <!-- Category 3: 특수 목적 차량 및 법인 보험 (Special Purpose Vehicles and Corporate Insurance) -->
+        <section>
+            <h2>화물차, 법인차, 캠핑카 보험료 산출의 복잡한 방정식</h2>
+            <p>
+                일반적인 승용차 보험과는 달리, <a href="https://directmpmok.withusdone.com/" target="_blank">화물차자동차보험</a>이나 <a href="https://directmpmoz.withusdone.com/" target="_blank">법인차량보험료</a>, <a href="https://directnpmob.withusdone.com/" target="_blank">캠핑카자동차보험</a>은 보험료 산정 방식이 매우 복잡합니다. 차량의 용도(업무용, 비업무용)와 운전자의 범위, 그리고 운행 거리와 빈도에 따라 보험료가 천차만별로 달라지기 때문입니다. 2026년에는 화물차 운전자의 경우, 운전 시간에 따라 보험료가 달라지는 '운행 기록 장치(DTG) 연동 할인' 특약이 확대되었습니다.
+            </p>
+            <p>
+                특히 <a href="https://directmpmoz.withusdone.com/" target="_blank">법인차량보험료</a>의 경우, 법인 명의의 차량이 다수일 때 발생하는 보험료 부담을 줄이는 것이 핵심입니다. 2026년에는 법인 차량 보험료를 절감하기 위해 '법인차 다이렉트 보험 비교견적' 서비스가 필수적입니다. 법인 차량은 운전자 범위(임직원 한정)를 어떻게 설정하느냐에 따라 보험료가 크게 달라지므로, 전문가의 조언을 받아 최적의 조건을 찾는 것이 중요합니다. <a href="https://directnpmoa.withusdone.com/" target="_blank">법인차자동차보험</a>은 개인 보험과는 달리, 법인의 규모나 업종 특성에 따른 위험률이 반영되기 때문에 세부적인 비교가 필요합니다.
+            </p>
+            <p>
+                캠핑카 보험 역시 일반 차량과 다릅니다. <a href="https://directnpmob.withusdone.com/" target="_blank">캠핑카자동차보험</a>은 레저용 차량의 특성을 반영하여, 장기간 미운행 기간 동안 보험료를 환급받을 수 있는 '캠핑카 전용 마일리지 특약' 등이 2026년에 더욱 세분화되었습니다. 캠핑카는 차량 개조 여부에 따라 보험 가입이 거절될 수도 있으므로, <a href="https://directnpmod.withusdone.com/" target="_blank">자동차보험산출</a> 과정에서 정확한 차량 정보를 제공하는 것이 중요합니다.
+            </p>
+            <p>
+                <a href="https://directmpmol.withusdone.com/" target="_blank">자동차보험료예상</a> 견적을 통해 미리 비용을 확인하고, <a href="https://directnpmoa.withusdone.com/" target="_blank">법인차자동차보험</a>이나 <a href="https://directmpmok.withusdone.com/" target="_blank">화물차자동차보험</a>의 특약 조건을 꼼꼼히 비교해야 합니다. 2026년에는 <a href="https://directmpmov.withusdone.com/" target="_blank">자동차종합보험비교</a> 사이트를 통해 특수 차량의 보험료도 쉽게 비교할 수 있게 되었으며, <a href="https://directmpmor.withusdone.com/" target="_blank">자동차보험가입이력</a>을 활용하여 보험료를 정확하게 산정하는 것이 필수적입니다.
+            </p>
+            <div class="content-links">
+                <a href="https://directmpmok.withusdone.com/" target="_blank">화물차자동차보험</a>
+                <a href="https://directmpmoz.withusdone.com/" target="_blank">법인차량보험료</a>
+                <a href="https://directnpmob.withusdone.com/" target="_blank">캠핑카자동차보험</a>
+                <a href="https://directnpmoe.withusdone.com/" target="_blank">법인차량자동차보험</a>
+            </div>
+        </section>
+
+        <!-- Category 4: 보험료 절감 팁 및 가입 이력 관리 (Cost Saving Tips and Enrollment History) -->
+        <section>
+            <h2>2026년 보험료 절약 노하우: 가입 이력 관리와 숨겨진 할인 찾기</h2>
+            <p>
+                보험료 절감은 단순히 다이렉트 보험을 선택하는 것 이상으로, 운전자의 습관과 가입 이력 관리에 달려있습니다. 2026년에는 <a href="https://directmpmoj.withusdone.com/" target="_blank">자동차보험료저렴한곳</a>을 찾기 위해 다음과 같은 절감 팁을 활용하는 것이 중요합니다. 첫째, <a href="https://directmpmor.withusdone.com/" target="_blank">자동차보험가입이력</a>을 철저하게 관리해야 합니다. 보험료 할인은 무사고 경력에 따라 누적되는데, 보험 가입 이력이 중간에 끊기지 않도록 관리하는 것이 중요합니다. 잠시 운전을 하지 않아도 보험료가 저렴한 '미운행 특약'을 활용하여 경력을 유지하는 것이 2026년의 새로운 트렌드입니다.
+            </p>
+            <p>
+                둘째, <a href="https://directmpmou.withusdone.com/" target="_blank">자동차보험금계산조회</a> 서비스를 통해 현재 보험료가 적정한지 주기적으로 확인해야 합니다. 2026년에는 '보험료 실시간 조정 시스템'이 도입되어, 운전자의 운전 습관 변화나 차량의 상태 변화에 따라 보험료가 수시로 달라질 수 있습니다. 운전자는 정기적으로 자신의 보험료를 조회하여, 혹시라도 놓치고 있는 할인 항목이 있는지 확인해야 합니다. <a href="https://directnpmop.withusdone.com/" target="_blank">자동차보험전화가입</a>을 통해 상담원과 직접 통화하여 놓친 부분을 확인하는 것도 좋습니다.
+            </p>
+            <p>
+                셋째, 차량의 안전장치를 최대한 활용해야 합니다. 2026년에는 차선 이탈 경고 시스템(LDWS), 자동 비상 제동 장치(AEB) 등 첨단 안전장치가 장착된 차량에 대해 더욱 높은 할인이 적용됩니다. 차량 구매 시 이러한 옵션을 선택하는 것이 장기적으로 보험료 절감에 도움이 됩니다. <a href="https://directnpmon.withusdone.com/" target="_blank">차량보험비</a>를 낮추는 가장 근본적인 방법은 안전운전이며, 이는 2026년 AI 기반 보험료 산정 시스템에서 더욱 중요하게 작용합니다.
+            </p>
+            <div class="content-links">
+                <a href="https://directmpmoj.withusdone.com/" target="_blank">자동차보험료저렴한곳</a>
+                <a href="https://directmpmor.withusdone.com/" target="_blank">자동차보험가입이력</a>
+                <a href="https://directmpmou.withusdone.com/" target="_blank">자동차보험금계산조회</a>
+                <a href="https://directnpmod.withusdone.com/" target="_blank">자동차보험산출</a>
+            </div>
+        </section>
+        
     </main>
-  </body>
+
+
+<footer style="font-size: 11px; color: #888; padding: 30px 20px; text-align: center; line-height: 1.8; font-family: sans-serif;">
+  <div style="margin-bottom: 8px;">
+    <!-- 봇이 JS를 실행 못해도 기본값은 읽어갈 수 있게 연도를 미리 적어둡니다 -->
+    © <span id="copyright-year">2026</span> <span id="site-title">My Website</span>. All rights reserved.
+  </div>
+
+  <div style="color: #ccc;">
+    <span id="bot-msg">데이터 동기화 중...</span> | 
+    <!-- 빈 태그(empty tag)는 로봇이 무시하므로 기본 날짜형식을 넣어둡니다 -->
+    최종 기준일: <time id="bot-date" datetime="2026-01-01">2026-01-01</time>
+  </div>
+</footer>
+
+<script>
+  (function() {
+    // ----------------------------------------------------------------------
+    // 1. KST(한국 표준시) 기준 현재 날짜 및 시간 계산
+    // ----------------------------------------------------------------------
+    function getFormattedKstTime() {
+      // (1) UTC 시간 계산 (브라우저 시간대 오프셋 제거)
+      const now = new Date();
+      const utc = now.getTime() + (now.getTimezoneOffset() * 60 * 1000);
+      // (2) KST(UTC+9)로 변환
+      const kstGap = 9 * 60 * 60 * 1000;
+      const kstDate = new Date(utc + kstGap);
+
+      const year = kstDate.getFullYear();
+      const month = String(kstDate.getMonth() + 1).padStart(2, '0');
+      const day = String(kstDate.getDate()).padStart(2, '0');
+      const hour = String(kstDate.getHours()).padStart(2, '0');
+      const minute = String(kstDate.getMinutes()).padStart(2, '0');
+      const second = String(kstDate.getSeconds()).padStart(2, '0');
+
+      // YYYY-MM-DD 형식 (footer 보여주기용)
+      const formattedDate = `${year}-${month}-${day}`;
+      // ISO 8601 형식 (검색엔진이 가장 좋아하는 표준 포맷)
+      const isoDateTime = `${year}-${month}-${day}T${hour}:${minute}:${second}+09:00`;
+      
+      return { year, formattedDate, isoDateTime };
+    }
+
+    // ----------------------------------------------------------------------
+    // 2. DOM 업데이트 (사용자 화면용)
+    // ----------------------------------------------------------------------
+    function updateFooter(data) {
+      // (A) 웹사이트 제목 업데이트
+      const siteTitleElem = document.getElementById('site-title');
+      if (siteTitleElem) {
+        siteTitleElem.textContent = document.title || window.location.hostname;
+      }
+
+      // (B) 저작권 연도 업데이트
+      const yearElem = document.getElementById('copyright-year');
+      if (yearElem) {
+        yearElem.textContent = data.year;
+      }
+
+      // (C) 최종 기준일 업데이트
+      const dateElem = document.getElementById('bot-date');
+      if (dateElem) {
+        dateElem.textContent = data.formattedDate;
+        dateElem.setAttribute('datetime', data.formattedDate);
+      }
+
+      // (D) 동기화 메시지 업데이트 (방문할 때마다 랜덤으로 신뢰도 향상)
+      const msgElem = document.getElementById('bot-msg');
+      if (msgElem) {
+        // 메시지 목록을 10개로 확장
+        const msgs = [
+          "서비스 최적화 완료", 
+          "데이터베이스 동기화 완료", 
+          "보안 프로토콜 점검 완료",
+          "콘텐츠 최신화 완료",
+          "시스템 점검 완료",
+          "웹표준 레이아웃 최적화",
+          "사용자 인터페이스 안정화",
+          "성능 개선 완료",
+          "새로운 데이터 로드 완료",
+          "운영 시스템 안정화 완료"
+        ];
+        // 방문할 때마다 메시지 랜덤 선택
+        const randomIndex = Math.floor(Math.random() * msgs.length);
+        msgElem.textContent = msgs[randomIndex];
+      }
+    }
+
+    // ----------------------------------------------------------------------
+    // 3. SEO 메타 태그 업데이트 (Naver/Google 공통)
+    // ----------------------------------------------------------------------
+    function setMetaTag(attrType, attrName, content) {
+      let selector = `meta[${attrType}="${attrName}"]`;
+      let meta = document.querySelector(selector);
+      if (!meta) {
+        meta = document.createElement('meta');
+        meta.setAttribute(attrType, attrName);
+        document.head.appendChild(meta);
+      }
+      meta.content = content;
+    }
+
+    function updateSeoMetaTags(data) {
+      // (A) Naver/Google 공통: Open Graph 수정일 (매우 중요)
+      setMetaTag('property', 'og:updated_time', data.isoDateTime);
+
+      // (B) Naver/Google 공통: Article 수정일 (Naver 웹문서 검색에 중요)
+      setMetaTag('property', 'article:modified_time', data.isoDateTime);
+
+      // (C) 일반 검색엔진(공통) 날짜 태그
+      setMetaTag('name', 'date', data.formattedDate);
+
+      // (D) 저작권 정보 갱신 (네이버 소유 확인 시 참고)
+      setMetaTag('name', 'copyright', `${data.year} ${document.title}`);
+    }
+
+    // ----------------------------------------------------------------------
+    // 4. [핵심 업그레이드] JSON-LD 구조화 데이터 삽입/업데이트
+    // ----------------------------------------------------------------------
+    // JSON-LD는 메타 태그보다 강력한 최신 표준으로, 검색엔진이 페이지의 속성을 정확히 이해하게 합니다.
+    function updateJsonLd(data) {
+      let script = document.querySelector('script[type="application/ld+json"]');
+      if (!script) {
+        script = document.createElement('script');
+        script.type = 'application/ld+json';
+        document.head.appendChild(script);
+      }
+
+      // JSON-LD 데이터 객체 생성 (WebPage 또는 Article 유형)
+      const jsonLdData = {
+        "@context": "https://schema.org",
+        "@type": "WebPage", // 페이지 전체에 대한 정보
+        "headline": document.title || window.location.hostname,
+        "dateModified": data.isoDateTime, // 핵심: 최신 업데이트 시간 기록
+        "datePublished": data.isoDateTime, // 발행일과 수정일이 같으면 최신으로 인식
+        "name": document.title || window.location.hostname
+      };
+      
+      // 스크립트 태그 내용 업데이트
+      script.textContent = JSON.stringify(jsonLdData, null, 2);
+    }
+
+    // ----------------------------------------------------------------------
+    // 5. 실행
+    // ----------------------------------------------------------------------
+    const timeData = getFormattedKstTime();
+    updateFooter(timeData);
+    updateSeoMetaTags(timeData);
+    updateJsonLd(timeData);
+  })();
+</script>
+
+
+
+</body>
 </html>
